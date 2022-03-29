@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.quadrado {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+
+.c1,
+.c2,
+.c3 {
+  width: 105px;
+  float: left;
+}
+
+.c4,
+.c5,
+.c6 {
+  width: 100px;
+  float: right;
+  position: fixed;
+  bottom: 0;
+}
+
+.c4 {
+  right: 0;
+}
+
+.c5 {
+  right: 105px;
+}
+
+.c6 {
+  right: 210px;
+}
+
+.q9,
+.q11,
+.q12 {
+  margin-bottom: 0;
+}
